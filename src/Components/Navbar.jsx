@@ -16,10 +16,10 @@ const Navbar = () => {
         <Toolbar variant="dense">
     
           <Typography variant="h6" color="inherit" component="div">
-            Photos
+            Books
           </Typography>
           <Button id='nav' color='inherit' align='right'>
-          <Link to ='/'>View</Link></Button>
+          <Link to ='/'>List</Link></Button>
           <Button id='nav' color='inherit' align='right'>
           <Link to ='/addstud'>Add</Link></Button>
         </Toolbar>

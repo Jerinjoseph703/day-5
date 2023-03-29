@@ -35,9 +35,10 @@ const Table1 = () => {
     <Table>
       <TableHead>
         <TableRow>
-          <TableCell>id</TableCell>
-          <TableCell>Name</TableCell>
-          <TableCell>Grade</TableCell>
+          <TableCell>Genere</TableCell>
+          <TableCell>Book</TableCell>
+          <TableCell>Author</TableCell>
+          <TableCell>Date</TableCell>
           <TableCell>Delect</TableCell>
           <TableCell>Update</TableCell>
         </TableRow>
@@ -46,9 +47,10 @@ const Table1 = () => {
 
         {students.map((value, index) => {
           return <TableRow key={index}>
-            <TableCell>{value.id}</TableCell>
-            <TableCell>{value.name}</TableCell>
-            <TableCell>{value.grade}</TableCell>
+            <TableCell>{value.Genere}</TableCell>
+            <TableCell>{value.Title}</TableCell>
+            <TableCell>{value.Author}</TableCell>
+            <TableCell>{value.Published}</TableCell>
             <TableCell>
               <Button color='error'
                 onClick={() => deletevalues(value.id)}>Delete</Button>

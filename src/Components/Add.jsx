@@ -45,17 +45,21 @@ const Add = (props) => {
     <div>
 
       <br></br>
-      <TextField label='Name' name='name' varient='outlined'
+      <TextField label='Genere' name='genere' varient='outlined'
         value={input.name} onChange={inputHandler} />
 
       <br></br>
       <br></br>
-      <TextField label='Grade' name='grade' varient='outlined'
+      <TextField label='Author' name='Author' varient='outlined'
         value={input.grade} onChange={inputHandler} /> <br />
-      <br></br>
+      
+
+<br></br>
+      <TextField label='Date' name='date' varient='outlined'
+        value={input.name} onChange={inputHandler} />
+<br></br>
       <Button varient='contained' onClick={readValues}
         color='success'>Submit</Button>
-
     </div>
 
   )
